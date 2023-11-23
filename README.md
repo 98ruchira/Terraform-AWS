@@ -1,4 +1,4 @@
-# Terraform AWS VPC Setup
+# Terraform AWS secure EC2 Setup
 
 ## Overview
 
