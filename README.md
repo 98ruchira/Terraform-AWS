@@ -22,14 +22,14 @@ public_subnet_cidr_block  = "10.0.1.0/24" ## Example
 private_subnet_cidr_block = "10.0.2.0/24" ## Example
 ami_id                   = "ami-0230bd60aa48260c6" ## Example
 instance_type            = "t2.micro" ## Example
-key_pair_name            = "test-Ruchira-key" ## Example
+key_pair_name            = "test-ruchira-key" ## Example
 ssh_ingress_cidr_blocks  = ["0.0.0.0/0"] ## Example
-vpc_name                 = "Ruchira-VPC" ## Example
-public_subnet_name       = "Ruchira-Public-Subnet" ## Example
-private_subnet_name      = "Ruchira-Private-Subnet" ## Example
-internet_gateway_name    = "Ruchira-igw" ## Example
-ec2_public_instance_name = "Ruchira-EC2-Public" ## Example
-ec2_private_instance_name = "Ruchira-EC2-Private" ## Example
+vpc_name                 = "ruchira-vpc" ## Example
+public_subnet_name       = "ruchira-public-subnet" ## Example
+private_subnet_name      = "ruchira-private-subnet" ## Example
+internet_gateway_name    = "ruchira-igw" ## Example
+ec2_public_instance_name = "ruchira-ec2-public" ## Example
+ec2_private_instance_name = "ruchira-ec2-private" ## Example
 ```
 
 ## Run the following command to initialize Terraform and download the necessary providers:
